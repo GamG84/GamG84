@@ -194,19 +194,15 @@ body {
     align-items: center;
     justify-content: center;
   }
+
+  .num {
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
 }
 .conteiner {
   text-align: center;
-}
-.main.footer {
-  text-align: center;
-  @media {
-    max-inline-size: 600px;
-  }
-  @media {
-    min-width: 200px;
-  }
-  @media {
-    max-width: 600px;
-  }
 }
