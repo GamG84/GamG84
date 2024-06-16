@@ -187,6 +187,13 @@ body {
 body {
   -webkit-transform: perspective(500px);
   -webkit-transform-style: preserve-3d;
+
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .conteiner {
   text-align: center;
