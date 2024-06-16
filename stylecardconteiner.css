@@ -24,7 +24,6 @@
   border: 0;
   box-sizing: border-box;
   overflow-clip-margin: content-box;
-  
 }
 .nav2 > .nav-right {
   font-size: 18px;
@@ -69,10 +68,8 @@ body {
 .num {
   font-style: italic;
   color: rgb(0, 1, 6);
-  
+
   height: 10em;
-  
- 
 }
 
 .foto-box {
@@ -112,9 +109,6 @@ body {
   outline-width: 30px !important;
 }
 
-
-
-
 .anime {
   text-align: center;
 }
@@ -129,9 +123,9 @@ body {
   -webkit-transform: perspective(500px);
   -webkit-transform-style: preserve-3d;
 }
-.conteiner{
+.conteiner {
   text-align: center;
 }
-.logo{
+.logo {
   text-align: center;
 }
