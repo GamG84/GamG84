@@ -71,7 +71,8 @@
 .list li a {
   color: red;
 }
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   border: 0;
@@ -137,7 +138,7 @@ body, html {
     }
   }
 
-  .image-container{
+  .image-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -208,7 +209,7 @@ body, html {
       margin-bottom: 15px;
     }
     .fotobox {
-      display: flex;
+      display: inline-block;
       flex-direction: row;
       justify-content: center;
       margin-top: 30px;
