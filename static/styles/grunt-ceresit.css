@@ -1,3 +1,17 @@
 body{
     background-color: aliceblue;
 }
+p a{
+    text-decoration: none;
+}
+h3 {
+    text-decoration: none;
+    
+}
+
+.grunt{
+    display:grid;
+    margin:  7px 7px 7px 0;
+    
+    
+}
