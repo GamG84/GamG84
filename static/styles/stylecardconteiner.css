@@ -1,10 +1,10 @@
 .nav2 {
   list-style: none;
   cursor: pointer;
-  padding: 10px 12px;
+  padding: 10px 15px;
   font-size: 15px;
   text-align: center;
-  background-color: yellow;
+  background-color: rgb(234, 234, 7);
   height: 1em;
   width: 98%;
 }
@@ -77,8 +77,7 @@ html {
   padding: 0;
   border: 0;
   overflow-x: hidden;
-  -webkit-transform: perspective(500px);
-  -webkit-transform-style: preserve-3d;
+  
   background-color: rgb(247, 247, 244);
 
   .header {
@@ -128,12 +127,13 @@ html {
     align-items: center;
     justify-content: center;
     padding: 25px 0;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+    
 
     @media only screen and (max-width: 1445px) {
       width: 100%;
       overflow-x: auto;
-      justify-content: left;
+      justify-content: center;
       padding: 10px 0;
     }
   }

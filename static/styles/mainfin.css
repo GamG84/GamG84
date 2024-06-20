@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(249, 246, 246);
+}
+h3{
+    margin: 0 7px 7px 7px;
+    
+}
+.product{
+    display: flex;
+    
+   
+}
+h3{
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}

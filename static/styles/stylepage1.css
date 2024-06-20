@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(196, 194, 194);
+}
+.section h1{
+  text-align: center;
+  color: blue;
+}
+.left{
+float:left;
+margin: 7px 7px 7px 0; 
+}
+.return{
+    margin-bottom: 25px;
+}
