@@ -15,3 +15,116 @@ h3 {
     
     
 }
+.header {
+    display: flex;
+    flex-direction: column;
+
+    .nav1 {
+      text-align: center;
+      background-color: rgba(4, 4, 111, 0.855);
+      color: yellow;
+      padding: 12px;
+
+      @media only screen and (max-width: 1445px) {
+        width: 100%;
+      }
+    }
+
+    .work {
+      text-align: right;
+      margin-top: -4em;
+      color: white;
+      line-height: 10px;
+
+      a {
+        color: yellow;
+      }
+
+      img {
+        height: 15px;
+        width: 15px;
+        padding: 0 0 2px 2px;
+        vertical-align: middle;
+        border: 0;
+        box-sizing: border-box;
+        overflow-clip-margin: content-box;
+      }
+
+      @media only screen and (max-width: 1445px) {
+        display: none;
+      }
+    }
+  }
+  .nav2 {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(234, 234, 7);
+  height: 1em;
+  width: 98%;
+}
+
+.nav2 > a {
+  color: black;
+}
+
+.nav2 > img {
+  height: 15px;
+  width: 15px;
+  padding: 0px 0px 2px 2px;
+  vertical-align: middle;
+  border: 0;
+  box-sizing: border-box;
+  overflow-clip-margin: content-box;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    img {
+      object-fit: cover;
+
+      @media (max-width: 1445px) and (min-width: 801px) {
+        max-width: 700px;
+      }
+      @media only screen and (max-width: 800px) {
+        max-width: 400px;
+      }
+    }
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+
+    .work {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-color: rgba(4, 4, 111, 0.855);
+      color: white;
+      line-height: 0;
+
+      .phone {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        img {
+          height: 15px;
+          width: 15px;
+          padding: 0 0 2px 2px;
+          vertical-align: middle;
+          border: 0;
+          box-sizing: border-box;
+          overflow-clip-margin: content-box;
+        }
+        a {
+          color: white;
+        }
+      }
+    }
+  }
